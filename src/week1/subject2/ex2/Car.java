@@ -20,13 +20,13 @@ public class Car {
     private int id = 1234;
     private CarNum cn = new CarNum(1);
 
-    public Car(String gear, int door) {
+    public Car(String color, String gear, int door) {
         this.gear = gear;
         this.door = door;
     }
 
     public Car(String color) {
-        this("auto", 4);
+        this(color,"auto", 4);
         this.color = color;
 
     }
