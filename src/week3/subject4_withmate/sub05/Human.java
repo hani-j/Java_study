@@ -1,8 +1,8 @@
-package week3.subject4.ex5;
+package week3.subject4_withmate.sub05;
 
 public class Human extends Animal {
-    @Override
-    public void move() {
+
+    public void readbook() {
         System.out.println("사람이 책을 읽습니다.");
     }
 }

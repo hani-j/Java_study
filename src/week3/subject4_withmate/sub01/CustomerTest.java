@@ -1,7 +1,19 @@
-package week3.subject4.ex2;
+package week3.subject4_withmate.sub01;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class CustomerTest {
+
     public static void main(String[] args) {
+
+//        Customer customerLee = new Customer(10010, "이순신");
+//        customerLee.bonusPoint = 1000;
+//        System.out.println(customerLee.showCustomerInfo());
+//        VIPCustomer customerKim = new VIPCustomer(10020, "김유신");
+//        customerKim.bonusPoint = 10000;
+//        System.out.println(customerKim.showCustomerInfo());
+
         Customer customerLee = new Customer(10010, "이순신");
         customerLee.bonusPoint = 1000;
         System.out.println(customerLee.showCustomerInfo());
@@ -17,4 +29,5 @@ public class CustomerTest {
         int priceNo = customerNo.calcPrice(10000);
         System.out.println(customerNo.showCustomerInfo() + " 지불금액은 " + priceNo + "원 입니다.");
     }
+
 }

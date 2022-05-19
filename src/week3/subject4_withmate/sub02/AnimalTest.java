@@ -1,4 +1,4 @@
-package week3.subject4.ex3;
+package week3.subject4_withmate.sub02;
 
 import java.util.ArrayList;
 
