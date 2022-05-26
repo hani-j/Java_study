@@ -5,7 +5,9 @@ public abstract class PlayerLevel {
     public abstract void jump();
     public abstract void turn();
     public abstract void showLevelMessage();
-    final public void go(int time){
+
+    // 템플릿 메서드
+    final void go(int time){
         showLevelMessage();
         run();
         for (int i = 0; i < time; i++){

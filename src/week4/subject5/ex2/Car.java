@@ -16,5 +16,7 @@ public abstract class Car {
         stop();
         turnOff();
     };
-    public abstract void wiper();
+
+    // 훅 메서드
+    public void wiper(){};
 }

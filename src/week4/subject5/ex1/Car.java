@@ -9,6 +9,8 @@ public abstract class Car {
     public void turnOff(){
         System.out.println("시동을 끕니다.");
     }
+
+    // 템플릿 메서드
     public void run(){
         startCar();
         drive();
