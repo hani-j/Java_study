@@ -15,6 +15,7 @@ public class MemberHashSet {
     }
 
     public void showAllMember() {
+
         for (Member member : hashSet)
             System.out.println(member);
         System.out.println();

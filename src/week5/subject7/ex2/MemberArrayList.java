@@ -1,9 +1,9 @@
 package week5.subject7.ex2;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class MemberArrayList {
-
     private ArrayList<Member> array;
 
     public MemberArrayList() {

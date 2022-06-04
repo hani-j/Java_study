@@ -15,7 +15,7 @@ public class MemberHashMap {
     }
 
     public void showAllMember() {
-        Iterator<Integer> ir = hashMap.keySet().iterator();
+        Iterator<Integer> ir = hashMap.keySet().iterator(); // key 만 처리
         while (ir.hasNext()){
             int key = ir.next();
             System.out.println(hashMap.get(key));

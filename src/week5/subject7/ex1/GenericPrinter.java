@@ -1,7 +1,7 @@
 package week5.subject7.ex1;
 
 public class GenericPrinter<T> {
-    T Material;
+    private T Material;
 
     public T getMaterial() {
         return Material;

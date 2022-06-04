@@ -20,6 +20,7 @@ public class Member {
         this.memberName = memberName;
     }
     public int hashCode(){
+        // return String.valueOf(memberId).hashCode();
         return memberId;
     }
     public boolean equals(Object obj){
@@ -32,6 +33,7 @@ public class Member {
         }
         return false;
     }
+
     @Override
     public String toString(){ //toString 메소드 오버로딩
         return memberName + " 회원님의 아이디는 " + memberId + "입니다";
